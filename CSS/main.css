@@ -1,41 +1,61 @@
 * {
-    font-family: "Lato";
-    margin: 0;
-    padding: 0;
+  font-family: "Lato";
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 header {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
 
-    display: grid;
-    grid-template-columns: 20% 60% 20%;
+  height: 100px;
 
-    height: 100px;
+  align-items: center;
+  justify-items: center;
 
-    align-items: center;
-    justify-items: center;
-
-    width: 100%;
-    /* border: 1px solid pink; */
-    background-color: azure;
+  width: 100%;
+  /* border: 1px solid pink; */
+  background-color: azure;
 }
 
-.branding img{
-    height: 80px;
+.branding img {
+  height: 80px;
+}
+
+.search-input {
+  display: flex;
+  width: 90%;
+  border-radius: 100px;
+  border: 1px solid #2d2d2d;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.search-input input {
+  width: 90%;
+  height: 40px;
+
+  /* border: 1px solid #2d2d2d; */
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 22px;
 }
 
 .profile {
-    display: flex;
-    /* display: block; */
+  display: flex;
+  /* display: block; */
 }
 
 .user-name {
-    align-self: center;
+  align-self: center;
+  font-size: 28px;
 }
 .user-picture img {
-    height: 80px;
-    border-radius: 50%;
+  height: 80px;
+  border-radius: 50%;
 }
