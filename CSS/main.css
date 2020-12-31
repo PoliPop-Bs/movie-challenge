@@ -1,0 +1,41 @@
+* {
+    font-family: "Lato";
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+
+    height: 100px;
+
+    align-items: center;
+    justify-items: center;
+
+    width: 100%;
+    /* border: 1px solid pink; */
+    background-color: azure;
+}
+
+.branding img{
+    height: 80px;
+}
+
+.profile {
+    display: flex;
+    /* display: block; */
+}
+
+.user-name {
+    align-self: center;
+}
+.user-picture img {
+    height: 80px;
+    border-radius: 50%;
+}
