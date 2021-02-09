@@ -11,8 +11,8 @@ a {
 header {
   display: grid;
   grid-template-columns: 20% 60% 20%;
-
-  height: 100px;
+  grid-template-rows: 60% 40%;
+  height: 200px;
 
   align-items: center;
   justify-items: center;
@@ -58,4 +58,17 @@ header {
 .user-picture img {
   height: 80px;
   border-radius: 50%;
+}
+
+.barr {
+
+  width: 100%;
+  height: 100%;
+  height: auto;
+  background-color: pink;
+  grid-column-start: 2;
+}
+
+ul > li {
+  display: inline-block;
 }
